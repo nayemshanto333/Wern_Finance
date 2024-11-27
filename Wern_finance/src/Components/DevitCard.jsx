@@ -3,7 +3,7 @@ import React from 'react';
 
 const DevitCard = () => {
   return (
-    <section className='flex flex-col-reverse sm:flex-row gap-6 lg:gap-8 xl:gap-12 justify-between items-center mt-10 lg:mt-14 xl:mt-20'>
+    <section className='flex flex-col-reverse sm:flex-row gap-6 lg:gap-8 xl:gap-12 justify-between items-center mt-14 lg:mt-14 xl:mt-20'>
        
     <div className=' sm:w-1/2'>
         <h1 className='text-2xl md:text-3xl lg:text-4xl  font-bold leading-tight'>Wern Debit Card</h1>

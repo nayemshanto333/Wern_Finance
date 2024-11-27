@@ -3,7 +3,7 @@ import { Navbar, NavbarItem , NavbarBrand, NavbarContent, Link, Button } from '@
 
 function Navarea() {
   return (
-    <Navbar shouldHideOnScroll isBlurred={false} className='bg-black w-full' maxWidth='xl'>
+    <Navbar shouldHideOnScroll isBlurred={false} className='bg-transparent w-full mt-5' maxWidth='xl'>
       <NavbarBrand>
         <div>
           <img src="logo.png" alt="" />
@@ -11,8 +11,8 @@ function Navarea() {
       </NavbarBrand>
       <NavbarContent justify='end'>
         <NavbarItem>
-          <Button color='primary' variant='bordered' radius="full">
-            <Link>Contact</Link>
+          <Button color='primary' variant='bordered' radius="full" as={Link} href='#'>
+            Contact
           </Button>
         </NavbarItem>
       </NavbarContent>

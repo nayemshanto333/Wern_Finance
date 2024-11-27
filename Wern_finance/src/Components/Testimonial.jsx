@@ -29,7 +29,7 @@ const Testimonial = () => {
     },
   ];
   return (
-    <section className="mt-10 lg:mt-20 xl:mt-24">
+    <section className="mt-14 lg:mt-20 xl:mt-24">
       <div className="grid  grid-cols-1 md:grid-cols-3 gap-8">
         {CardData.map((item, i) => (
           <div

@@ -3,7 +3,7 @@ import React from "react";
 
 const FindCard = () => {
   return (
-    <section className="flex flex-col-reverse sm:flex-row gap-6 lg:gap-20  justify-between items-center mt-10 lg:mt-14 xl:mt-20">
+    <section className="flex  flex-col sm:flex-row gap-6 lg:gap-20  justify-between items-center mt-14 lg:mt-14 xl:mt-20">
       <img
         className="w-10/12 sm:w-1/2 xl:-mr-[130px]"
         src="hero3.svg"

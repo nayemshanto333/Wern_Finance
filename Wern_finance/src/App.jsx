@@ -7,6 +7,7 @@ import DevitCard from "./Components/DevitCard";
 import FindCard from "./Components/FindCard";
 import Testimonial from "./Components/Testimonial";
 import FAQs from "./Components/FAQs";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <FAQs/>
           </div>
         </div>
+        <Footer/>
       </main>
     </>
   );
